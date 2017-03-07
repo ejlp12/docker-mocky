@@ -1,4 +1,4 @@
-FROM java:7
+FROM java:8
 MAINTAINER wangmuy <wangmuy@gmail.com>
 
 ENV PLAY_VERSION 2.2.0
