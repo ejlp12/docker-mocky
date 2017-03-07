@@ -1,7 +1,7 @@
 FROM java:7
 MAINTAINER wangmuy <wangmuy@gmail.com>
 
-ENV PLAY_VERSION 2.1.1
+ENV PLAY_VERSION 2.2.0
 
 RUN wget -q https://downloads.typesafe.com/play/${PLAY_VERSION}/play-${PLAY_VERSION}.zip \
     && unzip -q play-${PLAY_VERSION}.zip \
